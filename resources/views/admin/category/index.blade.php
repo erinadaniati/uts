@@ -2,7 +2,7 @@
 @section('sub-judul','Kategori')
 @section('content')
 
-	<a href="" class="btn btn-info btn-sm">Tambah Kategori</a>
+	<a href="{{ route('category.create')}}" class="btn btn-info btn-sm">Tambah Kategori</a>
 	<br><br>
 	<table class="table table-striped table-hover table-sm table-bordered">
 		<thead>
